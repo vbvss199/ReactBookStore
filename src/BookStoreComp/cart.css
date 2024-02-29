@@ -1,0 +1,76 @@
+.address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  box-sizing: border-box;
+}
+.cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.shoppingBag {
+  border: 1px solid black;
+  margin: 2vw 2vw 0vw 2vw;
+  box-sizing: border-box;
+}
+.emptyDiv {
+  margin: 2vw 2vw 0vw 2vw;
+  box-sizing: border-box;
+}
+.paymentInfo {
+  border: 1px solid black;
+  margin: 2vw 2vw 0vw 2vw;
+  box-sizing: border-box;
+}
+.label,
+.paymentBtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1vw;
+}
+input {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 3px;
+}
+#savebtn,
+#editbtn,
+#checkoutbtn,
+#cancelbtn {
+  margin: 0vw 2vw 0vw 2vw;
+}
+
+
+p{
+  background-color:#f4f4f4;
+}
+
+
+
+/* media queries */
+@media screen and (max-width: 500px) {
+  .cart {
+    grid-template-columns: 1fr;
+  }
+  .emptyDiv {
+    display: none;
+  }
+  .shoppingBag {
+    min-height: 20vh;
+  }
+  .label {
+    width: 300px;
+  }
+  input {
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+  }
+  #savebtn,
+  #editbtn,
+  #checkoutbtn,
+  #cancelbtn {
+    width: 110px;
+  }
+}
