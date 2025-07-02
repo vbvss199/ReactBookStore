@@ -1,0 +1,2 @@
+redux is a state-management library ,which is used for state-management.
+react-redux is a library through which we can connect our react application to redux .

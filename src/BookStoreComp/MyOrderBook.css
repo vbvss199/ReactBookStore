@@ -1,0 +1,31 @@
+.infoAboutDelivery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    background-color: rgb(235, 214, 171);
+}
+.MyOrderBook{
+    margin: 0;
+}
+
+#image1{
+    width: 70px;
+    height: 70px;
+    margin: 2vw 2vw 2vw 2vw;
+}
+.imageHolder{
+    border: 1px solid black;
+    margin :1vw;
+    background-color: rgb(231, 191, 117);
+    margin-top: 2vh;
+}
+.dataAboutBooks{
+    display: flex;
+    border: 1px solid black;
+    margin: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.bookdetails{
+    margin: 2vw;
+}
